@@ -1,6 +1,6 @@
 # Movie Database
 
-Movie Database is a program enabling users to create new entries for a database containing movies, with data input being verified for compliance with database constraints before a connection to the database server is established.
+Movie Database is a program enabling users to create new entries for a PostgreSQL database containing movies, with data input being verified for compliance with database constraints before being sent to the database server.
 
 ## Features
 
