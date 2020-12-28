@@ -1,6 +1,6 @@
 # Movie Database
 
-Movie Database is a program enabling users to create new entries for a database containing movies.
+Movie Database is a program enabling users to create new entries for a database containing movies, with data input verification being completed before a connection to the database server is established.
 
 ## Features
 
