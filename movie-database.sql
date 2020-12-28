@@ -1,4 +1,4 @@
--- Database for MovieDirect
+-- Database tables for the Movies database.
 
 CREATE TABLE Customers (
 customer_id INT NOT NULL,

@@ -1,28 +1,13 @@
 #!/usr/bin/env python3
 
-# This application for the client MovieDirect provides a function enabling the user to insert a new record into the Movies database.
+# This application enables users to insert a new record into the Movies database.
 
 import psycopg2
-import re #  Imported to enable pattern-matching for user input validation.
+import re  # Imported to enable pattern-matching for user input validation.
 
 def main():
 
-    print("Welcome to MovieDirect!")
-
-    """- Movies table. Here to show column list
-    CREATE TABLE Movies (
-    movie_id integer NOT NULL,
-    movie_title character varying(100) NOT NULL,
-    director_last_name character varying(50) NOT NULL,
-    director_first_name character varying(50) NOT NULL,
-    genre character varying(20) CHECK genre IN 'Action', 'Adventure', 'Comedy', Romance', 'Science Fiction', 'Documentary', 'Drama', 'Horror',
-    media_type character varying(20) CHECK media_type IN 'Blu-ray', 'DVD',
-    release_date date,
-    studio_name character varying(50),
-    retail_price real CHECK retail price > 0,
-    current_stock integer CHECK current_stock >= 0
-    );
-    """
+    print("Welcome to the Movies Database!")
 
     # User input is taken for the database, username and password and used to connect to the database.
 
@@ -209,6 +194,7 @@ def main():
     try:
 
        # Connects to database using the input prompted from the user.
+       # Note: Server host and credentials must be updated to use this program.
 
         conn = psycopg2.connect(dbname=database_name,
                                user =username,
