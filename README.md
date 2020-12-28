@@ -6,7 +6,7 @@ Movie Database is a program enabling users to create new entries for a database 
 
 * User input is validated according to the data contraints placed in the database
 * Data is verified on the client side of the application
-* Data sent to the database is already pre-verified for compliance with database constraints
+* Data sent to the PostgreSQL database is already pre-verified for compliance with database constraints
 * Error handling for user input and server connectivity
 * Clear user prompts and error messages
 * User authentication with credential check before establishing server connection
