@@ -1,4 +1,4 @@
--- Database tables for the Movies database.
+-- Database tables for the movie sales business.
 
 CREATE TABLE Customers (
 customer_id INT NOT NULL,
