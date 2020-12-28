@@ -27,6 +27,11 @@ SQL is required to run this program.
 
 ## Usage example
 
+```
+python3 movie-database-input.py
+```
+
+[![Movie-Database-Input-verification.png](https://i.postimg.cc/RFcXFJ5P/Movie-Database-Input-verification.png)](https://postimg.cc/tZ4hvTgP)
 
 
 ## Author
