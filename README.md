@@ -33,9 +33,8 @@ python3 movie-database-input.py
 
 [![Movie-Database-Input-verification.png](https://i.postimg.cc/RFcXFJ5P/Movie-Database-Input-verification.png)](https://postimg.cc/tZ4hvTgP)
 
-
 ## Author
 
 Bianca Davey
 
-biancamdavey@icloud.com
+biancamdavey91@gmail.com
